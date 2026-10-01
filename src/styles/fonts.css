@@ -1,0 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@400;500;600;700;800&family=Schibsted+Grotesk:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap');
+
+@font-face { font-family: 'Hanken Grotesk:Medium'; src: url('https://static.figma.com/font/HankenGrotesk_wght__1') format('woff2'); font-style: normal; font-weight: 500; font-display: swap; }
+@font-face { font-family: 'Hanken Grotesk:Regular'; src: url('https://static.figma.com/font/HankenGrotesk_wght__1') format('woff2'); font-style: normal; font-weight: 400; font-display: swap; }
+@font-face { font-family: 'Hanken Grotesk:SemiBold'; src: url('https://static.figma.com/font/HankenGrotesk_wght__1') format('woff2'); font-style: normal; font-weight: 600; font-display: swap; }
+@font-face { font-family: 'Schibsted Grotesk:Medium'; src: url('https://static.figma.com/font/SchibstedGrotesk_wght__1') format('woff2'); font-style: normal; font-weight: 500; font-display: swap; }
+@font-face { font-family: 'Schibsted Grotesk:Regular'; src: url('https://static.figma.com/font/SchibstedGrotesk_wght__1') format('woff2'); font-style: normal; font-weight: 400; font-display: swap; }
+@font-face { font-family: 'Schibsted Grotesk:SemiBold'; src: url('https://static.figma.com/font/SchibstedGrotesk_wght__1') format('woff2'); font-style: normal; font-weight: 600; font-display: swap; }
+@font-face { font-family: 'Noto Sans Math:Regular'; src: url('https://static.figma.com/font/NotoSansMath-Regular_1') format('woff2'); font-style: normal; font-weight: 400; font-display: swap; }
+@font-face { font-family: 'Noto Sans Symbols2:Regular'; src: url('https://static.figma.com/font/NotoSansSymbols2-Regular_5') format('woff2'); font-style: normal; font-weight: 400; font-display: swap; }
+@font-face { font-family: 'Noto Sans Symbols:Regular'; src: url('https://static.figma.com/font/NotoSansSymbols-VF_2') format('woff2'); font-style: normal; font-weight: 400; font-display: swap; }
+@font-face { font-family: 'Noto Sans:Regular'; src: url('https://static.figma.com/font/NotoSans-VF_3') format('woff2'); font-style: normal; font-weight: 400; font-display: swap; }
