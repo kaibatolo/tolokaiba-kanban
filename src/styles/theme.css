@@ -1,0 +1,44 @@
+:root {
+  --background: #f8f3f1;
+  --foreground: #372b31;
+  --card: #fffcfa;
+  --card-foreground: #372b31;
+  --primary: #853b56;
+  --primary-foreground: #fff8fa;
+  --secondary: #f0e7e7;
+  --secondary-foreground: #684a55;
+  --muted: #eee7e5;
+  --muted-foreground: #81717a;
+  --accent: #f4dce3;
+  --accent-foreground: #853b56;
+  --border: #e7dedd;
+  --ring: #aa5b76;
+  --radius: 0.875rem;
+  --rail: #2c1e28;
+  --rail-muted: #b4a0ac;
+  --success: #547863;
+  --warning: #a57530;
+}
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-card: var(--card);
+  --color-card-foreground: var(--card-foreground);
+  --color-primary: var(--primary);
+  --color-primary-foreground: var(--primary-foreground);
+  --color-secondary: var(--secondary);
+  --color-secondary-foreground: var(--secondary-foreground);
+  --color-muted: var(--muted);
+  --color-muted-foreground: var(--muted-foreground);
+  --color-accent: var(--accent);
+  --color-accent-foreground: var(--accent-foreground);
+  --color-border: var(--border);
+  --color-ring: var(--ring);
+  --color-rail: var(--rail);
+  --color-rail-muted: var(--rail-muted);
+  --color-success: var(--success);
+  --color-warning: var(--warning);
+  --font-sans: 'Hanken Grotesk', sans-serif;
+  --font-display: 'Schibsted Grotesk', sans-serif;
+  --font-mono: 'JetBrains Mono', monospace;
+}

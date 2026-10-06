@@ -1,0 +1,20 @@
+@import './styles/fonts.css';
+@import 'tailwindcss';
+@import './styles/theme.css';
+
+@layer base {
+  body { @apply bg-background text-foreground font-sans antialiased; }
+  button, a, select { -webkit-tap-highlight-color: transparent; }
+  button { @apply cursor-pointer; }
+  button:disabled { @apply cursor-not-allowed opacity-50; }
+  button, a, input, select, textarea { @apply outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2; }
+  ::selection { @apply bg-accent text-accent-foreground; }
+  dialog::backdrop { background: rgb(33 20 29 / 50%); backdrop-filter: blur(5px); }
+}
+@layer utilities {
+  .canvas-glow { background: radial-gradient(ellipse at 65% 0%, #f5dbe0 0%, transparent 55%), linear-gradient(120deg, #f8f3f1 35%, #faeee4 100%); }
+  .status-glow { background: linear-gradient(105deg, #f3dfe5 0%, #f7e8e2 54%, #f6ebdf 100%); }
+  .scroll-quiet { scrollbar-width: thin; scrollbar-color: transparent transparent; }
+  .scroll-quiet:hover { scrollbar-color: #c7b5bb transparent; }
+  .card-lift { @apply transition-all duration-200 hover:-translate-y-0.5 hover:border-primary/30 hover:shadow-lg hover:shadow-primary/5; }
+}
