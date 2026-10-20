@@ -1,0 +1,10 @@
+{
+  "platform": "discord",
+  "agent": "",
+  "bot_token": "",
+  "allowed_users": [],
+  "mention_required": false,
+  "home_channel": "",
+  "rate_limited": false,
+  "notes": "Blank Discord bot template. Copy and fill per agent."
+}
